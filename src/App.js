@@ -12,7 +12,7 @@ function App() {
     const handleDivision = async () => {
         setError('');
         try {
-            const response = await fetch('http://localhost:5000/divide', {
+            const response = await fetch('https://divideapp-backend.onrender.com/divide', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
